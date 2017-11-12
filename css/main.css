@@ -1,3 +1,8 @@
+.post {
+  background-color: (255,182,193);
+  border-style: double;
+}
+
 body{ 
 font-family: 'Shrikhand', cursive;
   background: linear-gradient(to right, #d3959b, #bfe6ba);
