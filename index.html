@@ -9,13 +9,8 @@ layout: default
      <p> This is my blog. I know it isn't like "WOW" but I'm really happy that I can achieve this. Soon on, I'm only going to do better with a bit of practice day by day. I can't wait to become a <em> CODING MASTER </em>. </p>
        <p> Please press the button below to go to the dates of my blog! Hope you enjoy! </p>
      </div>
-<div id="posts">  
-	{% for post in site.posts limit:3 %}
-		<p>{{post.title}}</p>
-		<p>{{post.date}}</p>
-		<p>{{post.excerpt}}</p>
+
 		<p> full <a href="{{post.url}}"> post</a></p>
-	{%endfor%}
 </div>	
 
 <button class="button"> <a href="blog.html">CLICK ME!</a></button>
