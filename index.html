@@ -12,7 +12,7 @@ layout: default
 
 <button class="button"> <a href="blog.html">CLICK ME!</a></button>
 <div id="posts">
-	{% for post in site.posts limit:3 %}
+	{% for post in site.posts %}
 			<h2> {{ post.title }} </h2>
 			<p> {{ post.date }} </p>
 			<p> {{ post.excerpt }}</p>
