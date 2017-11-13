@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: post
 title: "OCT 26"
 date: 2017-11-01
 ---
