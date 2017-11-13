@@ -10,7 +10,12 @@ layout: default
        <p> Please press the button below to go to the dates of my blog! Hope you enjoy! </p>
      </div>
 
-
-</div>	
-
 <button class="button"> <a href="blog.html">CLICK ME!</a></button>
+<div id="posts">
+	{% for post in site.posts limit:3 %}
+			<h2> {{ post.title }} </h2>
+			<p> {{ post.date }} </p>
+			<p> {{ post.excerpt }}</p>
+			<p><a href="{{post.url}}"> full post </a> </p>
+			{%endfor%}
+</div>
